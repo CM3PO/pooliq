@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(210 25% 7.8431%);
+  --card: hsl(180 6.6667% 97.0588%);
+  --card-foreground: hsl(210 25% 7.8431%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(210 25% 7.8431%);
+  --primary: hsl(220.9 39.3% 11%);
+  --primary-foreground: hsl(210 20% 98%);
+  --secondary: hsl(220 14.3% 95.9%);
+  --secondary-foreground: hsl(220.9 39.3% 11%);
+  --muted: hsl(220 14.3% 95.9%);
+  --muted-foreground: hsl(220 8.9% 46.1%);
+  --accent: hsl(220 14.3% 95.9%);
+  --accent-foreground: hsl(220.9 39.3% 11%);
+  --destructive: hsl(0 84.2% 60.2%);
+  --destructive-foreground: hsl(210 20% 98%);
+  --border: hsl(220 13% 91%);
+  --input: hsl(220 13% 91%);
+  --ring: hsl(262.1 83.3% 57.8%);
+  --radius: 0.5rem;
+  
+  /* PoolIQ Brand Colors */
+  --pool-blue: hsl(220.9 70% 50%);
+  --pool-blue-light: hsl(220 80% 60%);
+  --pool-accent: hsl(42 100% 50%);
+  --pool-success: hsl(142 76% 36%);
+  --pool-gray: hsl(220 14.3% 95.9%);
+  --pool-dark: hsl(220.9 39.3% 11%);
+}
+
+.dark {
+  --background: hsl(224 71% 4%);
+  --foreground: hsl(213 31% 91%);
+  --muted: hsl(223 47% 11%);
+  --muted-foreground: hsl(215.4 16.3% 56.9%);
+  --accent: hsl(216 34% 17%);
+  --accent-foreground: hsl(210 20% 98%);
+  --popover: hsl(224 71% 4%);
+  --popover-foreground: hsl(215 20.2% 65.1%);
+  --border: hsl(216 34% 17%);
+  --input: hsl(216 34% 17%);
+  --card: hsl(224 71% 4%);
+  --card-foreground: hsl(213 31% 91%);
+  --primary: hsl(210 20% 98%);
+  --primary-foreground: hsl(220.9 39.3% 11%);
+  --secondary: hsl(222.2 84% 4.9%);
+  --secondary-foreground: hsl(210 20% 98%);
+  --destructive: hsl(0 63% 31%);
+  --destructive-foreground: hsl(210 20% 98%);
+  --ring: hsl(263.4 70% 50.4%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-pool-blue {
+    color: hsl(220.9 70% 50%);
+  }
+  
+  .bg-pool-blue {
+    background-color: hsl(220.9 70% 50%);
+  }
+  
+  .border-pool-blue {
+    border-color: hsl(220.9 70% 50%);
+  }
+  
+  .text-pool-accent {
+    color: hsl(42 100% 50%);
+  }
+  
+  .bg-pool-accent {
+    background-color: hsl(42 100% 50%);
+  }
+  
+  .gradient-pool {
+    background: linear-gradient(135deg, hsl(220.9 70% 50%), hsl(220 80% 60%));
+  }
+  
+  .shadow-pool {
+    box-shadow: 0 10px 25px -3px hsl(220.9 70% 50% / 0.1), 0 4px 6px -2px hsl(220.9 70% 50% / 0.05);
+  }
+}
