@@ -90,7 +90,7 @@ export default function Header() {
                 className="text-lg font-bold text-pool-blue hover:text-pool-blue-dark transition-colors"
                 data-testid="phone-link"
               >
-                (512) XXX-XXXX
+                (409) 363-1741
               </a>
             </div>
             <Link href="/quote">
@@ -103,7 +103,7 @@ export default function Header() {
           {/* Mobile Menu */}
           <div className="flex lg:hidden items-center space-x-2">
             <a 
-              href="tel:512-XXX-XXXX"
+              href="tel:409-363-1741"
               className="p-2 text-pool-blue"
               data-testid="mobile-phone-link"
             >
