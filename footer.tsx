@@ -51,7 +51,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-pool-blue flex-shrink-0" />
                 <a 
-                  href="tel:512-XXX-XXXX" 
+                  href="tel:409-363-1741" 
                   className="text-gray-300 hover:text-white transition-colors"
                   data-testid="footer-phone"
                 >
