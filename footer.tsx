@@ -151,7 +151,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm text-center md:text-left">
-              <p>&copy; 2024 PoolIQ. All rights reserved. | Licensed & Insured Pool Services in Austin, TX</p>
+              <p>&copy; 2024 PoolIQ. All rights reserved. | Licensed & Insured Pool Services in Texas</p>
             </div>
             
             <div className="flex space-x-6">
