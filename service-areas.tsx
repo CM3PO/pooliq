@@ -67,7 +67,7 @@ export default function ServiceAreasSection() {
             Service Areas
           </h2>
           <p className="text-xl text-gray-600" data-testid="service-areas-subtitle">
-            Proudly serving Austin and surrounding communities
+            Proudly serving The Great State of Texas
           </p>
         </div>
 
